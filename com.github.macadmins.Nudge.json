@@ -1,10 +1,10 @@
 {
   "optionalFeatures": {
     "acceptableApplicationBundleIDs": [
-      "us.zoom.xos", 
-      "com.microsoft.powerpoint", 
-      "com.apple.iWork.keynote"
-          ],
+      "us.zoom.xos",
+      "com.microsoft.powerpoint",
+      "com.apple.iwork.keynote"
+    ],
     "aggressiveUserExperience": true,
     "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": false,
@@ -39,8 +39,6 @@
     "forceScreenShotIcon": false,
     "iconDarkPath": "/Library/Application Support/Nudge/SF-logo.png",
     "iconLightPath": "/Library/Application Support/Nudge/SF-logo.png",
-    "screenShotDarkPath": "",
-    "screenShotLightPath": "",
     "showDeferralCount": true,
     "simpleMode": false,
     "singleQuitButton": false,
@@ -60,8 +58,8 @@
         "primaryQuitButtonText": "Half Hour",
         "secondaryQuitButtonText": "Show Deferral Options",
         "subHeader": "A friendly reminder from your local IT team"
-      },
-    
+  
+      }
     ]
   }
 }
