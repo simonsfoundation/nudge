@@ -50,7 +50,6 @@
         "informationButtonText": "More Info",
         "mainContentHeader": "Your device will restart during this update",
         "mainContentNote": "Ignoring this window for more than 30 minutes will count as a deferral. Please select your deferral time below.",
-        "mainContentSubHeader": "",
         "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nIgnoring the installation of necessary software updates in the allowed time frame is against the IT policy.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.",
         "oneDayDeferralButtonText": "One Day",
         "oneHourDeferralButtonText": "One Hour",
