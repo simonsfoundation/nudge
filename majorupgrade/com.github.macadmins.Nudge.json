@@ -51,7 +51,7 @@
         "customDeferralButtonText": "Custom",
         "informationButtonText": "More Info",
         "mainContentHeader": "Your device will restart during this update",
-        "mainContentNote": "Please verify your computer is currently on macOS 11.6.4 before running this update. If not, Please go to System Prefernces > Software updates and select to install macOS 11.6.4.",
+        "mainContentNote": "Please verify your computer is currently on macOS 11.6.5 before running this update. If not, Please go to System Prefernces > Software updates and select to install macOS 11.6.4.",
         "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.",
         "mainHeader": "Your device needs an upgrade to the latest version of macOS",
         "oneDayDeferralButtonText": "One Day",
