@@ -32,7 +32,7 @@
     "maxRandomDelayInSeconds": 1200,
     "noTimers": false,
     "nudgeRefreshCycle": 900,
-    "randomDelay": false
+    "randomDelay": true
   },
   "userInterface": {
     "fallbackLanguage": "en",
