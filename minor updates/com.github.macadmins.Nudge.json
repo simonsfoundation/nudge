@@ -7,7 +7,7 @@
     ],
     "aggressiveUserExperience": true,
     "aggressiveUserFullScreenExperience": false,
-    "asynchronousSoftwareUpdate": true,
+    "asynchronousSoftwareUpdate": false,
     "attemptToFetchMajorUpgrade": false,
     "enforceMinorUpdates": true
   },
