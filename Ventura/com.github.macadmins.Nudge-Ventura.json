@@ -8,21 +8,21 @@
     "aggressiveUserExperience": true,
     "aggressiveUserFullScreenExperience": false,
     "asynchronousSoftwareUpdate": false,
-    "attemptToFetchMajorUpgrade": true,
-    "enforceMinorUpdates": false
+    "attemptToFetchMajorUpgrade": false,
+    "enforceMinorUpdates": true
   },
   "osVersionRequirements": [
     {
       "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
-      "requiredInstallationDate": "2022-11-11T00:00:00Z",
+      "requiredInstallationDate": "2023-01-07T00:00:00Z",
       "requiredMinimumOSVersion": "13.0",
       "targetedOSVersionsRule": "12"
     }
   ],
   "userExperience": {
     "allowUserQuitDeferrals": true,
-    "allowedDeferrals": 40,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 20,
+    "allowedDeferrals": 100,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 50,
     "approachingRefreshCycle": 3600,
     "approachingWindowTime": 72,
     "elapsedRefreshCycle": 600,
@@ -50,7 +50,7 @@
         "customDeferralButtonText": "Custom",
         "informationButtonText": "More Info",
         "mainHeader": "macOS Ventura is now available on your device!",
-        "mainContentHeader": "You will be asked to enter your password before installing the update. Your device will restart during this update.",
+        "mainContentHeader": "Your device will restart during this update.",
         "mainContentNote": "Ignoring this window for more than 30 minutes will count as a deferral. Please select your deferral time below.",
         "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.\n\nThis is a major macOS update which brings many exciting features such as Stage Manager, Continuity Camera, Passkeys and a lot more!\n\nClick on More Info buttom to learn more about macOS Ventura!",
         "oneDayDeferralButtonText": "One Day",
