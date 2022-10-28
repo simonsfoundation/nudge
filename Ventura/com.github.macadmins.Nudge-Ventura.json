@@ -36,6 +36,7 @@
   },
   "userInterface": {
     "fallbackLanguage": "en",
+    "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
     "forceFallbackLanguage": false,
     "forceScreenShotIcon": false,
     "iconDarkPath": "/Library/Application Support/Nudge/SF-logo.png",
