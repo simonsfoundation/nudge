@@ -7,7 +7,7 @@
     ],
     "aggressiveUserExperience": true,
     "aggressiveUserFullScreenExperience": false,
-    "asynchronousSoftwareUpdate": true,
+    "asynchronousSoftwareUpdate": false,
     "attemptToFetchMajorUpgrade": false,
     "enforceMinorUpdates": true
   },
@@ -53,7 +53,7 @@
         "mainHeader": "macOS Ventura is now available on your device!",
         "mainContentHeader": "Your device will restart during this update.",
         "mainContentNote": "Ignoring this window for more than 30 minutes will count as a deferral. Please select your deferral time below.",
-        "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.\n\nThis is a major macOS update which brings many exciting features such as Stage Manager, Continuity Camera, Passkeys and a lot more!\n\nClick on More Info buttom to learn more about macOS Ventura!",
+        "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.\n\nThis is a major macOS update which brings many exciting features such as Stage Manager, Continuity Camera, Passkeys and a lot more!\n\nClick on More Info button to learn more about macOS Ventura!",
         "oneDayDeferralButtonText": "One Day",
         "oneHourDeferralButtonText": "One Hour",
         "primaryQuitButtonText": "Half Hour",
