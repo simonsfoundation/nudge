@@ -7,22 +7,22 @@
     ],
     "aggressiveUserExperience": true,
     "aggressiveUserFullScreenExperience": false,
-    "asynchronousSoftwareUpdate": false,
+    "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": false,
     "enforceMinorUpdates": true
   },
   "osVersionRequirements": [
     {
       "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
-      "requiredInstallationDate": "2022-11-01T00:00:00Z",
-      "requiredMinimumOSVersion": "12.6.1",
+      "requiredInstallationDate": "2023-01-16T00:00:00Z",
+      "requiredMinimumOSVersion": "13.1",
       "targetedOSVersionsRule": "12"
     }
   ],
   "userExperience": {
     "allowUserQuitDeferrals": true,
-    "allowedDeferrals": 20,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 10,
+    "allowedDeferrals": 100,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 50,
     "approachingRefreshCycle": 3600,
     "approachingWindowTime": 72,
     "elapsedRefreshCycle": 600,
@@ -32,10 +32,11 @@
     "maxRandomDelayInSeconds": 1200,
     "noTimers": false,
     "nudgeRefreshCycle": 900,
-    "randomDelay": true
+    "randomDelay": false
   },
   "userInterface": {
     "fallbackLanguage": "en",
+    "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
     "forceFallbackLanguage": false,
     "forceScreenShotIcon": false,
     "iconDarkPath": "/Library/Application Support/Nudge/SF-logo.png",
@@ -49,9 +50,12 @@
         "actionButtonText": "Update Device",
         "customDeferralButtonText": "Custom",
         "informationButtonText": "More Info",
-        "mainContentHeader": "Your device will restart during this update",
+        "mainHeader": "macOS Ventura is now available on your mac!",
+        "subHeader": " ",
+        "mainContentHeader": "Your device will restart during this update.",
+        "mainContentSubHeader": "This update will take about 30 to 45 minutes to complete.",
         "mainContentNote": "Ignoring this window for more than 30 minutes will count as a deferral. Please select your deferral time below.",
-        "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.\n\nNote: If you are having any issues updating your computer, please restart your computer and try again.",
+        "mainContentText": "This is a major macOS update which brings many exciting features such as Stage Manager, Continuity Camera, Passkeys and a lot more!\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.\n\nClick on More Info button to learn more about macOS Ventura!",
         "oneDayDeferralButtonText": "One Day",
         "oneHourDeferralButtonText": "One Hour",
         "primaryQuitButtonText": "Half Hour",
