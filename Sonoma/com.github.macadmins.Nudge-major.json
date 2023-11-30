@@ -15,7 +15,7 @@
       {
         "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
         "requiredInstallationDate": "2024-01-07T00:00:00Z",
-        "requiredMinimumOSVersion": "14.1",
+        "requiredMinimumOSVersion": "14.1.2",
         "targetedOSVersionsRule": "13"
       }
     ],
