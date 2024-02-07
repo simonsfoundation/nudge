@@ -7,16 +7,18 @@
       ],
       "aggressiveUserExperience": true,
       "aggressiveUserFullScreenExperience": false,
-      "asynchronousSoftwareUpdate": true,
+      "asynchronousSoftwareUpdate": false,
       "attemptToFetchMajorUpgrade": false,
-      "enforceMinorUpdates": true
+      "enforceMinorUpdates": false,
+      "disableSoftwareUpdateWorkflow": true
     },
     "osVersionRequirements": [
       {
         "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
-        "requiredInstallationDate": "2024-01-25T00:00:00Z",
+        "requiredInstallationDate": "2024-02-12T00:00:00Z",
         "requiredMinimumOSVersion": "14.3",
-        "targetedOSVersionsRule": "13"
+        "targetedOSVersionsRule": "13",
+        "majorUpgradeAppPath": "/System/Library/CoreServices/Software Update.app"
       }
     ],
     "userExperience": {
@@ -39,6 +41,7 @@
     },
     "userInterface": {
       "fallbackLanguage": "en",
+      "actionButtonPath": "/System/Library/CoreServices/Software Update.app",
       "forceFallbackLanguage": false,
       "forceScreenShotIcon": false,
       "iconDarkPath": "/Library/Application Support/Nudge/SF-logo23-dark.png",
