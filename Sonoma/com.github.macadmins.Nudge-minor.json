@@ -14,8 +14,8 @@
   "osVersionRequirements": [
     {
       "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
-      "requiredInstallationDate": "2024-02-20T00:00:00Z",
-      "requiredMinimumOSVersion": "14.3.1",
+      "requiredInstallationDate": "2024-03-15T00:00:00Z",
+      "requiredMinimumOSVersion": "14.4",
       "targetedOSVersionsRule": "14"
     }
   ],
