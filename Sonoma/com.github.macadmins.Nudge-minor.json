@@ -14,8 +14,8 @@
   "osVersionRequirements": [
     {
       "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
-      "requiredInstallationDate": "2024-05-22T00:00:00Z",
-      "requiredMinimumOSVersion": "14.5",
+      "requiredInstallationDate": "2024-08-15T00:00:00Z",
+      "requiredMinimumOSVersion": "14.6",
       "targetedOSVersionsRule": "14"
     }
   ],
@@ -55,7 +55,7 @@
         "oneDayDeferralButtonText": "One Day",
         "oneHourDeferralButtonText": "One Hour",
         "primaryQuitButtonText": "Half Hour",
-        "secondaryQuitButtonText": "Show Deferral Options",
+        "secondaryQuitButtonText": "Show Deferral Options"
   
       }
     ]
