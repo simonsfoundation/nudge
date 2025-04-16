@@ -16,7 +16,7 @@
       {
         "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
         "requiredInstallationDate": "2025-02-20T00:00:00Z",
-        "requiredMinimumOSVersion": "15.3",
+        "requiredMinimumOSVersion": "15.4.1",
         "targetedOSVersionsRule": "14",
         "majorUpgradeAppPath": "/System/Library/CoreServices/Software Update.app"
       }
