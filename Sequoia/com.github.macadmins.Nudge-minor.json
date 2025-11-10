@@ -1,63 +1,62 @@
 {
-  "optionalFeatures": {
-    "acceptableApplicationBundleIDs": [
-      "us.zoom.xos",
-      "com.microsoft.powerpoint",
-      "com.apple.iwork.keynote"
+    "optionalFeatures": {
+        "acceptableApplicationBundleIDs": [
+            "us.zoom.xos",
+            "com.microsoft.powerpoint",
+            "com.apple.iwork.keynote"
+        ],
+        "aggressiveUserExperience": true,
+        "aggressiveUserFullScreenExperience": false,
+        "asynchronousSoftwareUpdate": false,
+        "attemptToFetchMajorUpgrade": false,
+        "enforceMinorUpdates": true
+    },
+    "osVersionRequirements": [
+        {
+            "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
+            "requiredInstallationDate": "2025-11-25T20:00:00Z",
+            "requiredMinimumOSVersion": "15.7.2",
+            "targetedOSVersionsRule": "15"
+        }
     ],
-    "aggressiveUserExperience": true,
-    "aggressiveUserFullScreenExperience": false,
-    "asynchronousSoftwareUpdate": false,
-    "attemptToFetchMajorUpgrade": false,
-    "enforceMinorUpdates": true
-  },
-  "osVersionRequirements": [
-    {
-      "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=9068",
-      "requiredInstallationDate": "2025-10-15T00:00:00Z",
-      "requiredMinimumOSVersion": "15.7",
-      "targetedOSVersionsRule": "15"
+    "userExperience": {
+        "allowUserQuitDeferrals": true,
+        "allowedDeferrals": 20,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 10,
+        "approachingRefreshCycle": 3600,
+        "approachingWindowTime": 72,
+        "elapsedRefreshCycle": 600,
+        "imminentRefreshCycle": 600,
+        "imminentWindowTime": 24,
+        "initialRefreshCycle": 18000,
+        "maxRandomDelayInSeconds": 1200,
+        "noTimers": false,
+        "nudgeRefreshCycle": 900,
+        "randomDelay": true
+    },
+    "userInterface": {
+        "fallbackLanguage": "en",
+        "forceFallbackLanguage": false,
+        "forceScreenShotIcon": false,
+        "iconDarkPath": "/Library/Application Support/Nudge/SF-logo23-dark.png",
+        "iconLightPath": "/Library/Application Support/Nudge/SF-logo23-light.png",
+        "showDeferralCount": true,
+        "simpleMode": false,
+        "singleQuitButton": false,
+        "updateElements": [
+            {
+                "_language": "en",
+                "actionButtonText": "Update Device",
+                "customDeferralButtonText": "Custom",
+                "informationButtonText": "More Info",
+                "mainContentHeader": "Your device will restart during this update",
+                "mainContentNote": "Ignoring this window for more than 30 minutes will count as a deferral. Please select your deferral time below.",
+                "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.\n\nNote: If you are having any issues updating your computer, please restart your computer and try again.",
+                "oneDayDeferralButtonText": "One Day",
+                "oneHourDeferralButtonText": "One Hour",
+                "primaryQuitButtonText": "Half Hour",
+                "secondaryQuitButtonText": "Show Deferral Options"
+            }
+        ]
     }
-  ],
-  "userExperience": {
-    "allowUserQuitDeferrals": true,
-    "allowedDeferrals": 20,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 10,
-    "approachingRefreshCycle": 3600,
-    "approachingWindowTime": 72,
-    "elapsedRefreshCycle": 600,
-    "imminentRefreshCycle": 600,
-    "imminentWindowTime": 24,
-    "initialRefreshCycle": 18000,
-    "maxRandomDelayInSeconds": 1200,
-    "noTimers": false,
-    "nudgeRefreshCycle": 900,
-    "randomDelay": true
-  },
-  "userInterface": {
-    "fallbackLanguage": "en",
-    "forceFallbackLanguage": false,
-    "forceScreenShotIcon": false,
-    "iconDarkPath": "/Library/Application Support/Nudge/SF-logo23-dark.png",
-    "iconLightPath": "/Library/Application Support/Nudge/SF-logo23-light.png",
-    "showDeferralCount": true,
-    "simpleMode": false,
-    "singleQuitButton": false,
-    "updateElements": [
-      {
-        "_language": "en",
-        "actionButtonText": "Update Device",
-        "customDeferralButtonText": "Custom",
-        "informationButtonText": "More Info",
-        "mainContentHeader": "Your device will restart during this update",
-        "mainContentNote": "Ignoring this window for more than 30 minutes will count as a deferral. Please select your deferral time below.",
-        "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.\n\nNote: If you are having any issues updating your computer, please restart your computer and try again.",
-        "oneDayDeferralButtonText": "One Day",
-        "oneHourDeferralButtonText": "One Hour",
-        "primaryQuitButtonText": "Half Hour",
-        "secondaryQuitButtonText": "Show Deferral Options"
-  
-      }
-    ]
-  }
 }
