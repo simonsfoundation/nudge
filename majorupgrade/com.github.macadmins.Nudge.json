@@ -1,65 +1,64 @@
 {
-  "optionalFeatures": {
-    "acceptableApplicationBundleIDs": [
-      "us.zoom.xos",
-      "com.microsoft.powerpoint",
-      "com.apple.iwork.keynote"
+    "optionalFeatures": {
+        "acceptableApplicationBundleIDs": [
+            "us.zoom.xos",
+            "com.microsoft.powerpoint",
+            "com.apple.iwork.keynote"
+        ],
+        "aggressiveUserExperience": true,
+        "asynchronousSoftwareUpdate": true,
+        "attemptToFetchMajorUpgrade": false,
+        "enforceMinorUpdates": true
+    },
+    "osVersionRequirements": [
+        {
+            "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=8895",
+            "majorUpgradeAppPath": "jamfselfservice://content?entity=policy&amp;id=3017&amp;action=view",
+            "requiredInstallationDate": "2022-03-25T00:00:00Z",
+            "requiredMinimumOSVersion": "12.3",
+            "targetedOSVersionsRule": "11"
+        }
     ],
-    "aggressiveUserExperience": true,
-    "asynchronousSoftwareUpdate": true,
-    "attemptToFetchMajorUpgrade": false,
-    "enforceMinorUpdates": true
-  },
-  "osVersionRequirements": [
-    {
-      "aboutUpdateURL": "https://simonsfoundation.interactgo.com/Interact/Pages/Content/Document.aspx?id=8895",
-      "majorUpgradeAppPath": "jamfselfservice://content?entity=policy&amp;id=3017&amp;action=view",
-      "requiredInstallationDate": "2022-03-25T00:00:00Z",
-      "requiredMinimumOSVersion": "12.3",
-      "targetedOSVersionsRule": "11"
+    "userExperience": {
+        "allowUserQuitDeferrals": true,
+        "allowedDeferrals": 20,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 10,
+        "approachingRefreshCycle": 3600,
+        "approachingWindowTime": 72,
+        "elapsedRefreshCycle": 300,
+        "imminentRefreshCycle": 600,
+        "imminentWindowTime": 24,
+        "initialRefreshCycle": 18000,
+        "maxRandomDelayInSeconds": 1200,
+        "noTimers": false,
+        "nudgeRefreshCycle": 900,
+        "randomDelay": false
+    },
+    "userInterface": {
+        "actionButtonPath": "jamfselfservice://content?entity=policy&amp;id=3017&amp;action=view",
+        "fallbackLanguage": "en",
+        "forceFallbackLanguage": false,
+        "forceScreenShotIcon": false,
+        "iconDarkPath": "/Library/Application Support/Nudge/SF-logo.png",
+        "iconLightPath": "/Library/Application Support/Nudge/SF-logo.png",
+        "showDeferralCount": true,
+        "simpleMode": false,
+        "singleQuitButton": false,
+        "updateElements": [
+            {
+                "_language": "en",
+                "actionButtonText": "Update Device",
+                "customDeferralButtonText": "Custom",
+                "informationButtonText": "More Info",
+                "mainContentHeader": "Your device will restart during this update",
+                "mainContentNote": "Please verify your computer is currently on macOS 11.6.5 before running this update. If not, Please go to System Prefrences > Software updates and select to install macOS 11.6.4.",
+                "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.",
+                "mainHeader": "Your device needs an upgrade to the latest version of macOS",
+                "oneDayDeferralButtonText": "One Day",
+                "oneHourDeferralButtonText": "One Hour",
+                "primaryQuitButtonText": "Half Hour",
+                "secondaryQuitButtonText": "Show Deferral Options"
+            }
+        ]
     }
-  ],
-  "userExperience": {
-    "allowUserQuitDeferrals": true,
-    "allowedDeferrals": 20,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 10,
-    "approachingRefreshCycle": 3600,
-    "approachingWindowTime": 72,
-    "elapsedRefreshCycle": 300,
-    "imminentRefreshCycle": 600,
-    "imminentWindowTime": 24,
-    "initialRefreshCycle": 18000,
-    "maxRandomDelayInSeconds": 1200,
-    "noTimers": false,
-    "nudgeRefreshCycle": 900,
-    "randomDelay": false
-  },
-  "userInterface": {
-    "actionButtonPath": "jamfselfservice://content?entity=policy&amp;id=3017&amp;action=view",
-    "fallbackLanguage": "en",
-    "forceFallbackLanguage": false,
-    "forceScreenShotIcon": false,
-    "iconDarkPath": "/Library/Application Support/Nudge/SF-logo.png",
-    "iconLightPath": "/Library/Application Support/Nudge/SF-logo.png",
-    "showDeferralCount": true,
-    "simpleMode": false,
-    "singleQuitButton": false,
-    "updateElements": [
-      {
-        "_language": "en",
-        "actionButtonText": "Update Device",
-        "customDeferralButtonText": "Custom",
-        "informationButtonText": "More Info",
-        "mainContentHeader": "Your device will restart during this update",
-        "mainContentNote": "Please verify your computer is currently on macOS 11.6.5 before running this update. If not, Please go to System Prefernces > Software updates and select to install macOS 11.6.4.",
-        "mainContentText": "A fully up-to-date device is required to ensure that IT can provide you with the latest features and accurately protect your device.\n\nTo begin the update, simply click on the 'Update macOS' button and follow the provided steps.",
-        "mainHeader": "Your device needs an upgrade to the latest version of macOS",
-        "oneDayDeferralButtonText": "One Day",
-        "oneHourDeferralButtonText": "One Hour",
-        "primaryQuitButtonText": "Half Hour",
-        "secondaryQuitButtonText": "Show Deferral Options",
-  
-      }
-    ]
-  }
 }
